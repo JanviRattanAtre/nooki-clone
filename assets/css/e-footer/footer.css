@@ -1,0 +1,108 @@
+footer {
+    display: flex;
+    height: 102px;
+    
+    padding: 48px 144px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+    /* style */
+    background: var(--Whitesmoke, #F5F5F5);
+
+    margin-top: 159px;
+
+    /* @media only screen  { */
+        /* Adjust styles for screens with a maximum width of 600px */
+        /* padding: 16px; Example adjustment for smaller screens */
+        /* gap: 8px; Another example adjustment */
+    /* } */
+
+}
+
+/* 
+.orderich-logo {
+    width: 117px;
+    height: 32px;
+    /* background-image: url("../../images/orderich-logo.png"); */
+    /* background-size: cover; */
+/* }  */
+
+.footer-content {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;    
+    color: var(--Link, #0D6EFD);
+}
+
+.footer-details {
+    width: 376px;
+    height: 24px;
+
+    /* style */
+    color: var(--Black, #222);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Paragraph */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+a {
+     /* Orderich text */
+     
+     font-feature-settings: 'clig' off, 'liga' off;
+ 
+     /* Paragraph */
+     font-family: Inter;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 24px;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.terms-and-conditions {
+    width: 127px;
+    height: 22px;
+
+    color: var(--Link, #0D6EFD);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Small */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+    white-space: nowrap;
+}
+
+.privacy-policy {
+    width: 92px;
+    height: 22px;
+
+    /* style */
+    color: var(--Link, #0D6EFD);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Small */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+    white-space: nowrap;
+}
+

@@ -1,0 +1,56 @@
+.checkout-button {
+    height: 24px;
+    display: flex;
+    height: 48px;
+    padding: 12px 24px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 108px;
+    align-self: stretch;
+
+    border-radius: 8px;
+    background: var(--Success, #28A745);
+    border: none;
+    
+    
+    /* Button Shadow */
+    box-shadow: 4px 4px 0px 0px rgba(34, 34, 34, 0.16);
+}
+.checkout-button:hover {
+    opacity: 0.5;
+}
+.label-left {
+    width: 75px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    color: var(--White, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Paragraph Bold */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}
+
+.label-right {
+    width: 71px;
+    height: 24px;
+
+    color: var(--White, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Paragraph Bold */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}

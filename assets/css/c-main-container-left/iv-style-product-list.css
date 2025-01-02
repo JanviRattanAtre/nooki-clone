@@ -1,0 +1,176 @@
+.product-list {
+    /* layout */
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.product-column-left {
+    /* layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.product-column-right {
+    /* layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+/* products in left and right columns */
+.item-product-left, .item-product-right {
+    width: 302px;
+    /* height: 96px; */
+    display: flex;
+    padding: 24px;
+    align-items: flex-start;
+    gap: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid var(--Gainsboro, #DCDCDC);
+    background: var(--White, #FFF);
+    
+    
+}
+
+/* product information */
+.item-product-info {
+    width: 190px;
+    /* height: 86px; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+
+}
+
+/* description of products*/
+.description {
+    width: 190px;
+    /* height: 22px; */
+
+    /* layout */
+    align-self: stretch;
+
+    color: black;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Small */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+
+
+
+    color: var(--Gray, #808080);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Small */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 157.143% */
+}
+
+.product-name {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    width: 145px;
+    height: 24px;
+}
+
+.counter {
+    width: 33px;
+    height: 24px;
+    color: var(--Gray, #808080);
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Paragraph */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.title {
+    width: 108px;
+    height: 24px;
+    color: var(--Black, #222);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Paragraph Bold */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}
+
+
+.price-indicator {
+    width: 57px;
+    height: 24px;
+
+    color: var(--Black, #222);
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Paragraph */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.product-photo-pizza {
+    /* layout */
+    width: 96px;
+    height: 96px;
+    flex-shrink: 0;
+
+    /* style */
+    border-radius: 8px;
+
+    /*Here, '../' is used to go up one leve up you need to go up one level (../) to reach the assets folder and then navigate to the images folder. */
+    background-image: url("../../images/pizza.jpg");
+    background-size: cover;
+}
+
+.product-photo-sushi {
+    /* layout */
+    width: 96px;
+    height: 96px;
+    flex-shrink: 0;
+
+    /* style */
+    border-radius: 8px;
+
+    /*Here, '../' is used to go up one leve up you need to go up one level (../) to reach the assets folder and then navigate to the images folder. */
+    background-image: url("../../images/sushi.jpg");
+    background-size: cover;
+}
+
+.product-photo-bento {
+    /* layout */
+    width: 96px;
+    height: 96px;
+    flex-shrink: 0;
+
+    /* style */
+    border-radius: 8px;
+
+    /*Here, '../' is used to go up one leve up you need to go up one level (../) to reach the assets folder and then navigate to the images folder. */
+    background-image: url("../../images/bento.png");
+    background-size: cover;
+
+}

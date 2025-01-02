@@ -1,0 +1,49 @@
+.floating-basket {
+    /* layout */
+    display: flex;
+    width: 302px;
+    min-height: 500px;
+    height: fit-content;
+    padding: 24px;
+    flex-direction: column;
+    gap: 24px;
+    margin-left: 30px;
+
+    /* style */
+    border-radius: 8px;
+    border: 1px solid var(--Gainsboro, #DCDCDC);
+    background-color: white;
+
+
+    /* Create space at the bottom of the floating basket */
+    margin-bottom: 24px;
+
+    /* fix the position at its current place (should stay fixed while scrolling) */
+    position: sticky;
+    top: 50px; /*stay below height of nav-bar but above category name (whose height is 60px) */
+}
+
+.floating-basket:hover{
+    box-shadow: 4px 4px rgb(241, 241, 241);
+}
+
+
+.your-order {
+    width: 302px;
+    height: 28px;
+    align-self: stretch;
+
+    /* style */
+    color: var(--Black, #222);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Heading 4 */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 140% */
+}
+
+
+

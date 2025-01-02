@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+    margin: 0;  /* reset default margin to ensure full width*/
+}
+.body-content {
+    display: flex;
+    justify-content: center;
+    /* width: 1440; */
+
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 600px) {
+    .floating-basket {
+        width: 100%; /* Adjust the width as needed for smaller screens */
+    }
+}

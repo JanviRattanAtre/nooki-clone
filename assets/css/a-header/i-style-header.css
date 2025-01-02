@@ -1,0 +1,68 @@
+/* HEADER */
+.nav-bar {
+    display: flex;
+    /* width: 1152px; */
+    height: 40px;
+    padding: 8px 5%;  
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    /* fix the position of nav-bar at the top of page */
+    position: sticky;
+    top: 0;
+
+    background-color: white;
+
+    @media only screen and (max-width: 1152px) {
+        /* Adjust styles for screens with a maximum width of 600px */
+        padding: 16px; /* Example adjustment for smaller screens */
+        gap: 8px; /* Another example adjustment */
+
+    
+    }
+}
+
+
+.img-logo-navbar {
+    width: 40px;
+    height: 40px;
+    margin-right: auto;
+}
+
+/* The div containing the buttons in header */
+.button-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+
+    /* layout */
+    width: 237px;
+    height: 40px;
+    margin-left: auto;
+}
+
+
+.button-container-nederlands,
+.button-container-login {
+
+    display: flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: white;
+
+    
+    /* style */
+    border-radius: 8px;
+    border: 1px solid var(--Gainsboro, #DCDCDC); 
+
+}
+
+.button-container-nederlands:hover,
+.button-container-login:hover{
+    cursor: pointer;
+    background-color: #DCDCDC;
+    box-shadow: 2px 2px gray;
+}
+

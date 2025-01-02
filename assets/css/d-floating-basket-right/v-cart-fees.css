@@ -1,0 +1,16 @@
+.cart-fees {
+    width: 302px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-self: stretch;
+    color: var(--Success, #28A745);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Paragraph Bold */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}
